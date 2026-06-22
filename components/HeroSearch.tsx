@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { HEROES, HeroData } from '@/data/heroes';
+import { HEROES } from '@/data/heroes';
+import type { HeroData } from '@/types/hero';
 
 const CLASS_COLORS = {
   Offense: 'text-red-400 bg-red-500/10 border-red-500/30',
